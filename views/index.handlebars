@@ -8,17 +8,17 @@
     </div>
 
     <div class="row">
-        <div class='col-md-6' id='not-eaten'>
+        <div class='col-md-7' id='not-eaten'>
             <div class="menu-field">
                 <h2>Hot And Ready!</h2>
                 {{#each burger}}
                 <div>
                     {{#unless this.devoured}}
-                    <div>
+                    <div class="burger-line">
                         <h4 class="burger-field">{{this.id}}. {{this.burger_name}}</h4>
                         <form action='/{{this.id}}?_method=PUT' method='POST'>
                             <input type='hidden' name='devoured' value='true'>
-                            <button class="devour-button" type="submit">DEVOUR IT</button>
+                            <button class="devour-button button" type="submit">Devour It</button>
                         </form>
                     </div>
                     {{/unless}}
@@ -27,13 +27,13 @@
             </div>
         </div>
 
-        <div class='col-md-6' id='eaten'>
+        <div class='col-md-5' id='eaten'>
             <div class="ate-field">
                 <h2>Got Devoured!</h2>
                 {{#each burger}}
                 <div>
                     {{#if this.devoured}}
-                    <div>
+                    <div  class="burger-line">
                         <h4 class="burger-field">{{this.id}}. {{this.burger_name}}</h4>
                         <form action='/{{this.id}}?_method=PUT' method='POST'>
                             <input type='hidden' name='devoured' value='false'>
@@ -55,11 +55,11 @@
                     <br>
                     <hr>
                     <label id='burger-label'>
-                        <strong>Make A Burger:</strong>
+                        <h2>Make A Burger: </h2>
                     </label>
                     <input type="text" id="burger" name="burger_name">
                 </div>
-                <button id='add_burger' type="submit">Add A Burger</button>
+                <button class='add_burger button' type="submit">Add A Burger</button>
             </form>
         </div>
     </div>

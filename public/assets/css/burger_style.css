@@ -54,20 +54,17 @@ footer {
 .header {
     text-align: center;
     font-size: 20px;
-    margin-top: -25px;
     text-decoration: underline;
 }
 
 .menu-field {
     float: left;
     margin-left: 250px;
-    margin-top: -25px;
 }
 
 .ate-field {
     float: right;
     margin-right: 250px;
-    margin-top: -25px;
 }
 
 .form-group {
@@ -80,27 +77,33 @@ footer {
 
 .burger-field {
     background-color: white;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
     padding-top: 2px;
     padding-bottom: 4px;
     text-align: center;
+    margin-right: 10px;
+    margin-bottom: 15px;
 }
 
-#add_burger {
-    margin-top: 10px;
+.add_burger {
+    padding-top: 2px;
     padding-left: 7px;
     padding-right: 7px;
-    padding-top: 5px;
-    padding-bottom: 5px;
 }
 
-/*.background-image {
-    position: fixed;
-    background-image: url(..//assets/);
-    background-size: 960px;
-    height: 600px;
-    width: 960px;
-    margin-top: -20px;
-    z-index: -50;
-}*/
+.burger-line {
+    display: inline-flex;
+}
+
+.devour-button {
+    margin-top: 9px;
+    padding-top: 2px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+#burger-label {
+    margin-right: 10px;
+    margin-top: -25px;
+}
