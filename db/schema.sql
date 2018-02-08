@@ -1,6 +1,6 @@
 ### Schema
-CREATE DATABASE burgers_db;
-USE burgers_db;
+-- CREATE DATABASE burgers_db;
+-- USE burgers_db;
 
 
 CREATE TABLE burgers
@@ -10,3 +10,7 @@ CREATE TABLE burgers
 	devoured BOOLEAN NOT NULL DEFAULT false,
 	PRIMARY KEY (id)
 );
+
+
+ALTER TABLE burgers
+ADD createdAt TIMESTAMP NOT NULL;

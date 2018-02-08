@@ -5,6 +5,26 @@ body {
     font-family: 'Shrikhand', cursive;
 }
 
+.logo-image {
+    /* background-image: url("..//img/burger_1.png"); */
+    display: block;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+}
+
+/* .background-image {
+    background-image: url("..//img/dinner_b.ground_1.jpg");
+    position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .2;
+    height: 1200px;
+    width: 100%;
+    z-index: -50;
+} */
+
 * {
     box-sizing: border-box;
 }
@@ -25,13 +45,6 @@ h4 {
     background-color: #734d26;
     z-index: 50;
     height: 25px;
-}
-
-.logo-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 45px;
 }
 
 .b.ground-image {
@@ -59,20 +72,16 @@ footer {
 
 .menu-field {
     float: left;
-    margin-left: 250px;
+    margin-left: 225px;
 }
 
 .ate-field {
     float: right;
-    margin-right: 250px;
+    margin-right: 225px;
 }
 
 .form-group {
     text-align: center;
-}
-
-#add_burger {
-    margin-bottom: 50px;
 }
 
 .burger-field {
@@ -83,14 +92,15 @@ footer {
     padding-bottom: 4px;
     text-align: center;
     margin-right: 10px;
-    margin-bottom: 15px;
 }
 
-.add_burger {
+/* .add_burger {
     padding-top: 2px;
     padding-left: 7px;
     padding-right: 7px;
-}
+    margin-top: -25px;
+    margin-bottom: 50px;
+} */
 
 .burger-line {
     display: inline-flex;
@@ -101,9 +111,10 @@ footer {
     padding-top: 2px;
     padding-left: 7px;
     padding-right: 7px;
+    padding-bottom: 3px;
 }
 
-#burger-label {
+.burger-label {
     margin-right: 10px;
-    margin-top: -25px;
+    margin-top: 5px;
 }

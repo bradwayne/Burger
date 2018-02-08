@@ -8,7 +8,7 @@
     </div>
 
     <div class="row">
-        <div class='col-md-7' id='not-eaten'>
+        <div class='col-md-6' id='not-eaten'>
             <div class="menu-field">
                 <h2>Hot And Ready!</h2>
                 {{#each burger}}
@@ -18,7 +18,7 @@
                         <h4 class="burger-field">{{this.id}}. {{this.burger_name}}</h4>
                         <form action='/{{this.id}}?_method=PUT' method='POST'>
                             <input type='hidden' name='devoured' value='true'>
-                            <button class="devour-button button" type="submit">Devour It</button>
+                            <button class="devour-button btn btn-default" type="submit">Devour It</button>
                         </form>
                     </div>
                     {{/unless}}
@@ -27,7 +27,7 @@
             </div>
         </div>
 
-        <div class='col-md-5' id='eaten'>
+        <div class='col-md-6' id='eaten'>
             <div class="ate-field">
                 <h2>Got Devoured!</h2>
                 {{#each burger}}
@@ -54,12 +54,12 @@
                 <div class='form-group'>
                     <br>
                     <hr>
-                    <label id='burger-label'>
-                        <h2>Make A Burger: </h2>
+                    <label>
+                        <h2  class='burger-label'>Make A Burger: </h2>
                     </label>
-                    <input type="text" id="burger" name="burger_name">
+                    <input type="text" id="burger-input" name="burger_name">
                 </div>
-                <button class='add_burger button' type="submit">Add A Burger</button>
+                <button class='add-button btn btn-default' type="submit">Add A Burger</button>
             </form>
         </div>
     </div>
