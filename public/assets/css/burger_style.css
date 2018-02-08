@@ -3,6 +3,7 @@ body {
     margin: auto;
     color: #734d26;
     font-family: 'Shrikhand', cursive;
+    text-outline: 4px white;
 }
 
 .logo-image {
@@ -11,10 +12,10 @@ body {
     background-repeat: no-repeat;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 25px;
+    padding-top: 25px;    
 }
 
-/* .background-image {
+.background-image {
     background-image: url("..//img/dinner_b.ground_1.jpg");
     position: fixed;
     background-size: cover;
@@ -23,7 +24,8 @@ body {
     height: 1200px;
     width: 100%;
     z-index: -50;
-} */
+    margin-top: -210px;
+}
 
 * {
     box-sizing: border-box;
@@ -88,8 +90,8 @@ footer {
     background-color: white;
     padding-left: 7px;
     padding-right: 7px;
-    padding-top: 2px;
-    padding-bottom: 4px;
+    padding-top: 3px;
+    padding-bottom: 3px;
     text-align: center;
     margin-right: 10px;
 }
