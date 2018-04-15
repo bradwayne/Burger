@@ -1,6 +1,6 @@
 # Eat-Da-Burger!
 
-Eat-Da-Burger! is a restaurant app that lets users create and name a burgers they'd like to eat. After creating the burger the users will then be able to devour the burger.
+Eat-Da-Burger! is a restaurant app that lets users create and name burgers they'd like to eat. After creating the burger the users will then be able to devour the burger.
 
 **Home Screen**
 
